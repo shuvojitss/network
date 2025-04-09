@@ -50,3 +50,19 @@ class CRC_check2 {
         }
     }
 }
+
+/*
+Enter message: 100100
+Enter divisor: 1101
+CRC:0001
+Transmitted message: 1001000001
+Enter received message: 101100011
+Error detected at bit position: 2
+
+Enter message: 100100
+Enter divisor: 1101
+CRC: 001
+Transmitted message: 100100001
+Enter received message: 100100001
+No error detected.
+*/
