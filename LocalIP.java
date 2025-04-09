@@ -4,3 +4,5 @@ public class LocalIP {
         System.out.println("IP Address: " + InetAddress.getLocalHost().getHostAddress());
     }
 }
+
+// IP Address: 172.16.1.10
